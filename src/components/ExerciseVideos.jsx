@@ -1,8 +1,13 @@
+import { Box } from "@mui/material"
 
 
-const ExerciseVideos = () => {
+const ExerciseVideos = ({exerciseVideos, name}) => {
   return (
-    <div>ExerciseVideos</div>
+    <Box sx={{marginTop: {lg: '200px', xs: '20px'}}} p="20px">
+
+
+
+    </Box>
   )
 }
 
